@@ -1,8 +1,8 @@
+package HomeTheater;
 
 public class Main {
 
 	public static void main(String[] args) {
-		
 		
 		SistemaDeSom ss =  new SistemaDeSom();
 		ss.setTensao(220);

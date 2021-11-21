@@ -1,26 +1,31 @@
+package HomeTheater;
+
 public class HomeTheater {
 	
 	protected SistemaDeSom som;
 	protected SistemaDeVideo video;
-	
-	public HomeTheater(){
+
+	public HomeTheater() {
 		video = new SistemaDeVideo();
-		som =  new SistemaDeSom();
+		som = new SistemaDeSom();
 	}
 
 	public SistemaDeSom getSom() {
 		return som;
 	}
+
 	public void setSom(SistemaDeSom som) {
 		this.som = som;
 	}
+
 	public SistemaDeVideo getVideo() {
 		return video;
 	}
+
 	public void setVideo(SistemaDeVideo video) {
 		this.video = video;
 	}
-	
+
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();

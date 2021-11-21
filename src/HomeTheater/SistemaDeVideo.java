@@ -1,5 +1,6 @@
+package HomeTheater;
 
-public class SistemaDeVideo extends EquipamentoEletronico{
+public class SistemaDeVideo extends EquipamentoEletronico {
 
 	private String marca;
 	private String modelo;
